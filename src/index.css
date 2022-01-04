@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,162 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+body {
+  margin: 0;
+  background-image: url(portfolioBackground.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.aboutText {
+  color: white;
+  width: 85%;
+}
+
+#projectsContainer {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  /* background-color: red; */
+}
+
+#projectsRow {
+  justify-content: center;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+#projectsH1 {
+  text-align: center;
+  color: white;
+}
+
+#navbarBrand {
+  color: white;
+}
+
+#basic-nav-dropdown {
+  color: white;
+}
+
+.cardLinks {
+  text-decoration: none;
+}
+
+.projectCards {
+  transition: transform .2s;
+}
+
+.projectCards:hover {
+  transform: scale(1.1);
+}
+
+#about {
+  color: white;
+}
+
+#about:hover {
+  color: #0d6efd;
+}
+
+#projects {
+  color: white;
+}
+
+#projects:hover {
+  color: #0d6efd;
+}
+
+#contact {
+  color: white;
+}
+
+#contact:hover {
+  color: #0d6efd;
+}
+
+
+
+/* 
+
+Animation 1 for page transition, liked the second one better though, but I'll keep the code here...
+
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 150ms linear;
+} */
+
+.fade-enter {
+  opacity: 0;
+  transform: translate(0, 25px);
+  z-index: 1;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transform: translate(0, 0);
+
+  transition: opacity 250ms ease-out, transform 300ms ease;
+}
+.fade-exit {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transform: translate(0, 30px);
+
+  transition: opacity 250ms ease-out, transform 300ms ease;
+}
+
+.iconSubtitle {
+  color: white;
+  font-size: 150%;
+  text-decoration: none;
+}
+
+.iconSubtitle:hover {
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+
+
+#linkedInIcon {
+  color: white;
+  font-size: 500%;
+}
+
+#githubIcon {
+  color: white;
+  font-size: 500%;
+}
+
+#emailIcon {
+  color: white;
+  font-size: 500%;
+}
+
+#errorURL {
+  color: white;
+  text-align: center;
 }
