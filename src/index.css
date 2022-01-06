@@ -139,7 +139,7 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
 
 .iconSubtitle {
   color: white;
-  font-size: 150%;
+  font-size: 110%;
   text-decoration: none;
 }
 
@@ -148,11 +148,18 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
   cursor: pointer;
 }
 
-
+.contactLink {
+  text-decoration: none;
+}
 
 #linkedInIcon {
   color: white;
   font-size: 500%;
+}
+
+#linkedInIcon:hover {
+  color: #0d6efd;
+  cursor: pointer;
 }
 
 #githubIcon {
@@ -160,9 +167,19 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
   font-size: 500%;
 }
 
+#githubIcon:hover {
+  color: #0d6efd;
+  cursor: pointer;
+}
+
 #emailIcon {
   color: white;
   font-size: 500%;
+}
+
+#emailIcon:hover {
+  color: #0d6efd;
+  cursor: pointer;
 }
 
 #errorURL {

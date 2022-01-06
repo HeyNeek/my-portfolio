@@ -21,17 +21,21 @@ function Contact(){
             <Container>
                 <Row>
                     <Col xs="3">
-                        <FontAwesomeIcon icon={faLinkedin} id="linkedInIcon" />
-                        <br/>
-                        <a target="_blank" href="https://www.linkedin.com/in/nicholas-aguirre-a23a0616a/" className="iconSubtitle">LinkedIn</a>
+                        <a target="_blank" href="https://www.linkedin.com/in/nicholas-aguirre-a23a0616a/" className="contactLink">
+                            <FontAwesomeIcon icon={faLinkedin} id="linkedInIcon" />
+                            <br/>
+                            <p className="iconSubtitle">LinkedIn</p>
+                        </a>
                     </Col>
                     <Col xs="3">
-                        <FontAwesomeIcon icon={faGithub} id="githubIcon" />
-                        <br/>
-                        <a target="_blank" href="https://github.com/HeyNeek" className="iconSubtitle">GitHub</a>
+                        <a target="_blank" href="https://github.com/HeyNeek" className="contactLink">
+                            <FontAwesomeIcon icon={faGithub} id="githubIcon" />
+                            <br/>
+                            <p className="iconSubtitle">GitHub</p>
+                        </a>
                     </Col>
                     <Col xs="3">
-                        <FontAwesomeIcon icon={faEnvelope} id="emailIcon" />
+                        <FontAwesomeIcon onClick={() => setModalShow(true)} icon={faEnvelope} id="emailIcon" />
                         <br/>
                         <p onClick={() => setModalShow(true)} className="iconSubtitle">Email</p>
                     </Col>
