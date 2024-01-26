@@ -31,6 +31,7 @@ function Projects() {
               <a
                 className="card-links"
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.youtube.com/watch?v=oi2WjwFdS8U&ab_channel=NickAguirre"
               >
                 Demo
@@ -39,6 +40,7 @@ function Projects() {
                 id="card-github-link"
                 className="card-links"
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/HeyNeek/space-city-coffee"
               >
                 GitHub
@@ -64,6 +66,7 @@ function Projects() {
               <a
                 className="card-links"
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.youtube.com/watch?v=js5H6XZfNk8&ab_channel=NickAguirre"
               >
                 Demo
@@ -72,6 +75,7 @@ function Projects() {
                 id="card-github-link"
                 className="card-links"
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/HeyNeek/character-creator"
               >
                 GitHub
