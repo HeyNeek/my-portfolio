@@ -200,3 +200,20 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
   color: white;
   text-align: center;
 }
+
+.selfie {
+  border-radius: 50%;
+  width: 25%;
+  margin-right: 130px;
+}
+
+.selfie-container {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .selfie {
+    border-radius: 50%;
+    width: 80%;
+  }
+}
