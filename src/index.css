@@ -40,9 +40,20 @@ body {
   margin-bottom: 10px; /* Added */
 }
 
-#projectsH1 {
+.projectsH1 {
   text-align: center;
   color: white;
+}
+
+.projects-subheader {
+  text-align: center;
+  color: white;
+}
+
+.title-container {
+  flex-flow: row !important;
+  padding-bottom: 5px;
+  text-decoration: none;
 }
 
 #navbarBrand {
@@ -53,12 +64,17 @@ body {
   color: white;
 }
 
-.cardLinks {
+.card-links {
   text-decoration: none;
+  font-size: 18px;
+}
+
+#card-github-link {
+  padding-left: 10px;
 }
 
 .projectCards {
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .projectCards:hover {
@@ -88,8 +104,6 @@ body {
 #contact:hover {
   color: #0d6efd;
 }
-
-
 
 /* 
 
