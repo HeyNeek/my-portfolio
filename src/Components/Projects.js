@@ -57,7 +57,7 @@ function Projects() {
           bg="dark"
           text="light"
           border="dark"
-          style={{ padding: "5px", width: "18rem" }}
+          style={{ margin: "25px", padding: "5px", width: "18rem" }}
         >
           <Card.Img variant="top" src={dndLogo} />
           <Card.Body>

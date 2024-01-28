@@ -2,10 +2,7 @@ import React, { useState } from "react";
 
 import FormModal from "./FormModal";
 
-import Container from "react-bootstrap/Container";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import "bootstrap/dist/css/bootstrap.css";
+import "../index.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -17,45 +14,41 @@ function Contact() {
 
   return (
     <>
-      <Container>
-        <Row>
-          <Col xs="3">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.linkedin.com/in/nicholas-aguirre-a23a0616a/"
-              className="contactLink"
-            >
-              <FontAwesomeIcon icon={faLinkedin} id="linkedInIcon" />
-              <br />
-              <p className="iconSubtitle">LinkedIn</p>
-            </a>
-          </Col>
-          <Col xs="3">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/HeyNeek"
-              className="contactLink"
-            >
-              <FontAwesomeIcon icon={faGithub} id="githubIcon" />
-              <br />
-              <p className="iconSubtitle">GitHub</p>
-            </a>
-          </Col>
-          <Col xs="3">
-            <FontAwesomeIcon
-              onClick={() => setModalShow(true)}
-              icon={faEnvelope}
-              id="emailIcon"
-            />
-            <br />
-            <p onClick={() => setModalShow(true)} className="iconSubtitle">
-              Email
-            </p>
-          </Col>
-        </Row>
-      </Container>
+      <div className="contacts-container">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/nicholas-aguirre-a23a0616a/"
+          className="contactLink"
+        >
+          <FontAwesomeIcon icon={faLinkedin} id="linkedInIcon" />
+          <br />
+          <p className="iconSubtitle">LinkedIn</p>
+        </a>
+
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/HeyNeek"
+          className="contactLink"
+        >
+          <FontAwesomeIcon icon={faGithub} id="githubIcon" />
+          <br />
+          <p className="iconSubtitle">GitHub</p>
+        </a>
+
+        <div>
+          <FontAwesomeIcon
+            onClick={() => setModalShow(true)}
+            icon={faEnvelope}
+            id="emailIcon"
+          />
+          <br />
+          <p onClick={() => setModalShow(true)} className="iconSubtitle">
+            Email
+          </p>
+        </div>
+      </div>
       <FormModal show={modalShow} onHide={() => setModalShow(false)} />
     </>
   );

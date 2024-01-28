@@ -164,11 +164,12 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
 
 .contactLink {
   text-decoration: none;
+  margin-right: 65px;
 }
 
 #linkedInIcon {
   color: white;
-  font-size: 500%;
+  font-size: 600%;
 }
 
 #linkedInIcon:hover {
@@ -178,7 +179,7 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
 
 #githubIcon {
   color: white;
-  font-size: 500%;
+  font-size: 600%;
 }
 
 #githubIcon:hover {
@@ -188,7 +189,7 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
 
 #emailIcon {
   color: white;
-  font-size: 500%;
+  font-size: 600%;
 }
 
 #emailIcon:hover {
@@ -211,9 +212,25 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
   text-align: center;
 }
 
+.contacts-container {
+  display: flex;
+  margin-left: 310px;
+}
+
 @media (max-width: 1200px) {
   .selfie {
     border-radius: 50%;
     width: 80%;
+  }
+
+  .contactLink {
+    text-decoration: none;
+    margin-bottom: 50px;
+  }
+
+  .contacts-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
   }
 }
