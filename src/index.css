@@ -214,7 +214,7 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
 
 .contacts-container {
   display: flex;
-  margin-left: 310px;
+  margin-left: 16.5%;
 }
 
 @media (max-width: 1200px) {
@@ -231,6 +231,6 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
   .contacts-container {
     display: flex;
     flex-direction: column;
-    margin-left: 240px;
+    margin-left: 40%;
   }
 }
