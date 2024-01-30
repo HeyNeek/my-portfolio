@@ -25,12 +25,13 @@ function About() {
       <p className="aboutText">
         I got my start with computers in the early 2000s troubleshooting and
         playing around in Windows XP. This continued love for computers led to
-        me taking coding classes in High School and going to college for
-        Computer Science. After that I continued my self education through
-        online resources and eventually enrolled in Flatiron School, an
-        intensive 3 month bootcamp that would teach me the skills to apply my
-        fundamental knowledge gained through my formal education and apply it in
-        a practical sense!
+        me taking coding classes in High School and then going to college for
+        Computer Science graduating with an Associate's Degree. After that I
+        continued my self education through online resources and eventually
+        enrolled in Flatiron School, an intensive 3 month bootcamp that would
+        teach me the skills to apply my fundamental knowledge gained through my
+        formal education and apply it in a practical sense! I now currently work
+        full time as a Software Engineer here in Houston Texas!
       </p>
     </Container>
   );
