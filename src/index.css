@@ -75,6 +75,8 @@ body {
 
 .projectCards {
   transition: transform 0.2s;
+  transform: translateY(-50%); /* Center vertically */
+  animation: rollIn 1s forwards;
 }
 
 .projectCards:hover {
@@ -170,6 +172,8 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
 #linkedInIcon {
   color: white;
   font-size: 600%;
+  transform: translateY(-50%); /* Center vertically */
+  animation: rollIn 1s forwards;
 }
 
 #linkedInIcon:hover {
@@ -180,6 +184,8 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
 #githubIcon {
   color: white;
   font-size: 600%;
+  transform: translateY(-50%); /* Center vertically */
+  animation: rollIn 1s forwards;
 }
 
 #githubIcon:hover {
@@ -190,6 +196,8 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
 #emailIcon {
   color: white;
   font-size: 600%;
+  transform: translateY(-50%); /* Center vertically */
+  animation: rollIn 1s forwards;
 }
 
 #emailIcon:hover {
@@ -206,6 +214,8 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
   border-radius: 50%;
   width: 25%;
   margin-right: 130px;
+  transform: translateY(-50%); /* Center vertically */
+  animation: rollIn 1s forwards;
 }
 
 .selfie-container {
@@ -215,6 +225,19 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
 .contacts-container {
   display: flex;
   margin-left: 16.5%;
+}
+
+@keyframes rollIn {
+  from {
+    transform: translateX(
+      -100%
+    ); /* Initial position outside the left side of the screen */
+  }
+  to {
+    transform: translateX(
+      0
+    ); /* Final position at the left edge of the screen */
+  }
 }
 
 @media (max-width: 1200px) {
