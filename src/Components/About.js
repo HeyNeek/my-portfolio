@@ -31,7 +31,7 @@ function About() {
         enrolled in Flatiron School, an intensive 3 month bootcamp that would
         teach me the skills to apply my fundamental knowledge gained through my
         formal education and apply it in a practical sense! I now currently work
-        full time as a Software Engineer here in Houston Texas!
+        full time as a Software Engineer here in Portland Oregon!
       </p>
     </Container>
   );
