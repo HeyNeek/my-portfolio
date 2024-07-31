@@ -26,6 +26,11 @@ body {
   width: 85%;
 }
 
+.technology-header {
+  color: white;
+  width: 85%;
+}
+
 #projectsContainer {
   margin: 0 auto; /* Added */
   float: none; /* Added */
@@ -213,7 +218,7 @@ Animation 1 for page transition, liked the second one better though, but I'll ke
 .selfie {
   border-radius: 50%;
   width: 25%;
-  margin-right: 130px;
+  margin-right: 300px;
   transform: translateY(-50%); /* Center vertically */
   animation: rollIn 1s forwards;
 }
